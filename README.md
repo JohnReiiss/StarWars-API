@@ -40,7 +40,9 @@ Uma API simples e educativa feita em **Node.js** com **Express** e **MongoDB** u
 
 ## 📁 Estrutura da API 
 
-<img width="572" height="289" alt="estrutura api" src="https://github.com/user-attachments/assets/76ee94a4-42d1-4296-954b-e87a86a7c93a" />
+<div align="center">
+  <img width="572" height="289" alt="estrutura api" src="https://github.com/user-attachments/assets/76ee94a4-42d1-4296-954b-e87a86a7c93a" />
+</div>
 
 ---
 
