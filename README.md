@@ -34,61 +34,25 @@ Uma API simples e educativa feita em **Node.js** com **Express** e **MongoDB** u
 
 ## 📊 Diagrama de Funcionamento da API
 
-+----------------------+            +-------------------------+
-|   Cliente (Insomnia) |  <------>  |  API Express (index.js) |
-+----------------------+            +-------------------------+
-        |                                 |
-        | 1. GET /                        | --------------------------+
-        |-------------------------------->|                          |
-        |                                 | Busca todos os filmes    |
-        |                                 | no MongoDB               |
-        |                                 |                          |
-        |<--------------------------------|<-------------------------+
-        |     Lista de filmes (JSON)      |
-        |
-        | 2. POST /                       | --------------------------+
-        |-------------------------------->|                          |
-        |  (Filme único ou array JSON)    | Cria um ou mais filmes   |
-        |                                 | no MongoDB               |
-        |                                 |                          |
-        |<--------------------------------|<-------------------------+
-        |      Filme(s) criado(s)         |
-        |
-        | 3. PUT /:id                     | --------------------------+
-        |-------------------------------->|                          |
-        |     Atualiza filme por ID       | Verifica e atualiza dados|
-        |                                 |                          |
-        |<--------------------------------|<-------------------------+
-        |      Filme atualizado           |
-        |
-        | 4. DELETE /:id                  | --------------------------+
-        |-------------------------------->|                          |
-        |     Remove filme por ID         | Apaga registro do MongoDB|
-        |                                 |                          |
-        |<--------------------------------|<-------------------------+
-        |      Filme deletado             |
+<img width="1024" height="776" alt="diafragma" src="https://github.com/user-attachments/assets/1e02d202-9c38-4d34-883f-bb3859d39a72" />
+
+---
 
 ## 📁 Estrutura da API 
 
-starwars-api/
-│
-├── node_modules/
-├── src/
-│ └── index.js # Arquivo principal com rotas da API
-├── package.json
-├── package-lock.json
+<img width="572" height="289" alt="estrutura api" src="https://github.com/user-attachments/assets/76ee94a4-42d1-4296-954b-e87a86a7c93a" />
+
+---
 
 ## 📄 Requisições
 
 ### 🔍 GET `/`
-
 Retorna todos os filmes cadastrados.
 
----
-
 ### ➕ POST `/`
-
 Cria **um ou mais** filmes. Exemplo de **objeto único**:
+
+---
 
 ```json
 {
@@ -114,11 +78,14 @@ Cria **um ou mais** filmes. Exemplo de **objeto único**:
   }
 ]
 ```
+---
 
 ## 📝 PUT /:id
 Atualiza um filme existente com base no id.
 ## ❌ DELETE /:id
 Remove um filme do banco de dados pelo id.
+
+---
 
 ## 🚀 Como Rodar Localmente
 1. Clone o repositório:
@@ -134,16 +101,24 @@ Remove um filme do banco de dados pelo id.
 ```node src/index.js```
 A API estará rodando em http://localhost:3000
 
+---
+
 ## 🌐 Testando com Insomnia
 Utilize o Insomnia para testar as rotas da API (GET, POST, PUT, DELETE). Você pode importar os endpoints manualmente ou criar seu workspace com base nos caminhos acima.
+
+---
 
 ## 🛡️ Segurança (Recomendação)
 1-Crie um arquivo .env para armazenar a string de conexão do MongoDB.
 2-Utilize dotenv para carregar variáveis de ambiente.
 3-Remova dados sensíveis (como o usuário e senha do MongoDB Atlas) do código-fonte.
 
+---
+
 ## 📄 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar!
+
+---
 
 ## 📋 Regras de Negócio
 
@@ -186,12 +161,7 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar!
 
 ### ✅ Resumo
 
-| Operação     | Rota       | Ação                              |
-|--------------|------------|-----------------------------------|
-| Listar       | `GET /`    | Retorna todos os filmes           |
-| Criar        | `POST /`   | Cria um ou vários filmes          |
-| Atualizar    | `PUT /:id` | Atualiza um filme existente       |
-| Deletar      | `DELETE /:id` | Remove um filme pelo ID       |
+<img width="881" height="318" alt="resumo api" src="https://github.com/user-attachments/assets/ed7f9ced-8f93-4395-a80b-f04ef6c93366" />
 
 
 <div align="center"> <p>Feito com ❤️ por <a href="https://github.com/JohnReiiss">Johnatan Reis</a></p> <p>🔗 <strong>Link do repositório</strong>: <a href="https://github.com/JohnReiiss/starwars-api" target="_blank">github.com/JohnReiiss/starwars-api</a></p> </div>
