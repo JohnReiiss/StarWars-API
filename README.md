@@ -167,6 +167,14 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar!
   <img width="881" height="318" alt="resumo api" src="https://github.com/user-attachments/assets/ed7f9ced-8f93-4395-a80b-f04ef6c93366" />
 </div>
 
+### ✉️ Contato
+
+- **Desenvolvedor**: [Johnatan dos Santos Reis]  
+- **E-mail:** johnatan.reiiss@icloud.com
+- **LinkedIn:** [linkedin.com/in/johnatan-Reis](https://www.linkedin.com/in/johnatan-dos-santos-reis-945092b7/)
+- **GitHub:** [github.com/JohnReiiss](https://github.com/JohnReiiss)  
+
+---
 
 <div align="center"> <p>Feito com ❤️ por <a href="https://github.com/JohnReiiss">Johnatan Reis</a></p> <p>🔗 <strong>Link do repositório</strong>: <a href="https://github.com/JohnReiiss/starwars-api" target="_blank">github.com/JohnReiiss/starwars-api</a></p> </div>
 
